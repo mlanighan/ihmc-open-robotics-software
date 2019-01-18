@@ -271,6 +271,12 @@ public class MainTabController
       requestSetStartPoseFromRobot.set(true);
    }
 
+   @FXML
+   private void requestWalkingPreview()
+   {
+
+   }
+
    public void setFullRobotModel(FullHumanoidRobotModel fullHumanoidRobotModel)
    {
       this.humanoidReferenceFrames = new HumanoidReferenceFrames(fullHumanoidRobotModel);
